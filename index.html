@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="library.js"></script>
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <h1>Library</h1>
+    </header>
+    
+    <main>
+      <div class="book-container">
+
+      </div>
+      
+    </main>
+  </div>
+  <div class="modal">
+    <dialog>
+      <button>Close</button>
+      <form onsubmit="addBookToLibrary()" action="">
+        <label for="book-name">Book Name</label>
+        <input id="book-name" name="book-name" type="text">
+  
+        <label for="author-name">Author Name</label>
+        <input id="author-name" name="author-name" type="text">
+  
+        <label for="pages">Page Number</label>
+        <input id="pages" name="pages" type="number">
+  
+        <input value="Create Book" type="submit">
+      </form>
+  
+    </dialog>
+    <button>NEW BUTTON</button>
+  </div>
+</body>
+</html>

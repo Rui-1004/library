@@ -1,0 +1,36 @@
+.main-container {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 15px;
+}
+
+.book-container {
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(150px, 1fr)) / repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+}
+
+.modal {
+  margin-top: 30px;
+}
+
+::backdrop {
+  opacity: 0.5;
+}
